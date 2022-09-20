@@ -1,5 +1,5 @@
 # Python
-Trilha de estudos para Python
+Trilha de estudos para Python - Gustavo Guanabara
 
 ## Tipos primitivos
 
