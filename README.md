@@ -30,15 +30,15 @@ s= n1 + n2
 print('A soma vale', s)
 
 
-# digite função numerico
+## digite função numerico
 n = input('Digite algo: ')
 print(n.isnumeric())
 
-# digite função alfanuméricos
+## digite função alfanuméricos
 n = input('Digite algo: ')
 print(n.isalnum())
 
-# digite função alfabetico
+## digite função alfabetico
 n = input('Digite algo: ')
 print(n.isalpha())
 
