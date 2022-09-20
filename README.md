@@ -89,7 +89,7 @@ print('O triplo de {} vale {}. \nA raiz quadrada de {} é igual a {:.2f}.'.forma
 
 
 ### Exercicío 07 Média Aritmética
-# Ex 1 ponto flutuante: print('A média entre {:.1f} e {:.1f} é igual {:.1f}'.format(n1, n2, m)) 
+Ex 1 ponto flutuante: print('A média entre {:.1f} e {:.1f} é igual {:.1f}'.format(n1, n2, m)) 
 n1 = float(input('Primeira nota do aluno:'))
 n2 = float(input('Segunda nota do aluno:'))
 m = (n1 + n2) / 2
