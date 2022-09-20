@@ -141,4 +141,22 @@ preço = float(input('Qual é o preço do produto? R$'))
 novo = preço - (preço * 5/ 100)
 print('O produto que custava R${}, na promoção com desconto de 5% vai custar R${}' .format(preço, novo))
 
+###  Exercício 13 – Reajuste Salarial
+salário = float(input('Qual é o salário do Funcionário? R$'))
+novo = salário + (salário * 15/100)
+print('Um funcionário que ganhava R${:.2f}, com 15% de aumento passa a receber R${:.2f}'.format(salário, novo))
+
+### Exercício 14 – Conversor de Temperaturas
+c = float(input('Informe a temperatura em °C:'))
+f = ((9*c)/5)+32
+print('A temperatura de {0}°C corresponde a {1}°F!'.format(c, f))
+
+### Exercício 15 – Aluguel de Carros
+dias = int(input('Quantos dias alugados?'))
+km = float(input('Quantos km rodados?'))
+pago = (dias * 60) + (km * 0.15)
+print('O total a pagar é de R${:.2f}'.format(pago))
+
+
+
 
